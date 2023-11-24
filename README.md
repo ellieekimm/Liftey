@@ -3,4 +3,4 @@ In this mini project, I created an application called Liftey!!! This application
 
 While making this project, I learned how to use TabView, Sheet, work with the transition modifier, and make sliding views in Swift!!
 
-<img src = "https://github.com/ellieekimm/Liftey/blob/main/Screen%20Recording%202023-11-07%20at%202.43.12%20PM.gif" height = 200>
+<img src = "https://github.com/ellieekimm/Liftey/blob/main/Screen%20Recording%202023-11-07%20at%202.43.12%20PM.gif" width = 200>
