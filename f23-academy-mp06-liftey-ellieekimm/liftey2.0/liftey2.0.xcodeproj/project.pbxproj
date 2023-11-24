@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BCE42CD2AF9B2BC007F063C /* liftey2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42CC2AF9B2BC007F063C /* liftey2_0App.swift */; };
+		7BCE42CF2AF9B2BC007F063C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42CE2AF9B2BC007F063C /* ContentView.swift */; };
+		7BCE42D12AF9B2BE007F063C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE42D02AF9B2BE007F063C /* Assets.xcassets */; };
+		7BCE42D42AF9B2BE007F063C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCE42D32AF9B2BE007F063C /* Preview Assets.xcassets */; };
+		7BCE42E02AF9B317007F063C /* WorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42DF2AF9B317007F063C /* WorkoutViewModel.swift */; };
+		7BCE42E22AF9B329007F063C /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42E12AF9B329007F063C /* WorkoutView.swift */; };
+		7BCE42E42AF9B33C007F063C /* ExerciseRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42E32AF9B33C007F063C /* ExerciseRowItemView.swift */; };
+		7BCE42E72AF9B354007F063C /* CreateExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42E62AF9B354007F063C /* CreateExerciseView.swift */; };
+		7BCE42EB2AF9B375007F063C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42EA2AF9B375007F063C /* Exercise.swift */; };
+		7BCE42ED2AF9B380007F063C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42EC2AF9B380007F063C /* Workout.swift */; };
+		7BCE42EF2AF9B662007F063C /* HistoryWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42EE2AF9B662007F063C /* HistoryWorkoutView.swift */; };
+		7BCE42F12AF9B688007F063C /* WorkoutHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42F02AF9B688007F063C /* WorkoutHistory.swift */; };
+		7BCE42F32AF9BBB7007F063C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42F22AF9BBB7007F063C /* HistoryView.swift */; };
+		7BCE42F52AF9E18F007F063C /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42F42AF9E18F007F063C /* SummaryView.swift */; };
+		7BCE42F72AF9EAAC007F063C /* TrendingWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42F62AF9EAAC007F063C /* TrendingWorkoutView.swift */; };
+		7BCE42F92AF9EAD1007F063C /* TrendingWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42F82AF9EAD1007F063C /* TrendingWorkout.swift */; };
+		7BCE42FB2AFAC0C6007F063C /* InDepthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCE42FA2AFAC0C6007F063C /* InDepthView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7BCE42C92AF9B2BC007F063C /* liftey2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = liftey2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCE42CC2AF9B2BC007F063C /* liftey2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liftey2_0App.swift; sourceTree = "<group>"; };
+		7BCE42CE2AF9B2BC007F063C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7BCE42D02AF9B2BE007F063C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BCE42D32AF9B2BE007F063C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BCE42DF2AF9B317007F063C /* WorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewModel.swift; sourceTree = "<group>"; };
+		7BCE42E12AF9B329007F063C /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		7BCE42E32AF9B33C007F063C /* ExerciseRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRowItemView.swift; sourceTree = "<group>"; };
+		7BCE42E62AF9B354007F063C /* CreateExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateExerciseView.swift; sourceTree = "<group>"; };
+		7BCE42EA2AF9B375007F063C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		7BCE42EC2AF9B380007F063C /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		7BCE42EE2AF9B662007F063C /* HistoryWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWorkoutView.swift; sourceTree = "<group>"; };
+		7BCE42F02AF9B688007F063C /* WorkoutHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistory.swift; sourceTree = "<group>"; };
+		7BCE42F22AF9BBB7007F063C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		7BCE42F42AF9E18F007F063C /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		7BCE42F62AF9EAAC007F063C /* TrendingWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingWorkoutView.swift; sourceTree = "<group>"; };
+		7BCE42F82AF9EAD1007F063C /* TrendingWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingWorkout.swift; sourceTree = "<group>"; };
+		7BCE42FA2AFAC0C6007F063C /* InDepthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InDepthView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCE42C62AF9B2BC007F063C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BCE42C02AF9B2BC007F063C = {
+			isa = PBXGroup;
+			children = (
+				7BCE42CB2AF9B2BC007F063C /* liftey2.0 */,
+				7BCE42CA2AF9B2BC007F063C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCE42CA2AF9B2BC007F063C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42C92AF9B2BC007F063C /* liftey2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCE42CB2AF9B2BC007F063C /* liftey2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42DE2AF9B304007F063C /* ViewModels */,
+				7BCE42DD2AF9B2FF007F063C /* Views */,
+				7BCE42DC2AF9B2F5007F063C /* Models */,
+				7BCE42CC2AF9B2BC007F063C /* liftey2_0App.swift */,
+				7BCE42CE2AF9B2BC007F063C /* ContentView.swift */,
+				7BCE42D02AF9B2BE007F063C /* Assets.xcassets */,
+				7BCE42D22AF9B2BE007F063C /* Preview Content */,
+			);
+			path = liftey2.0;
+			sourceTree = "<group>";
+		};
+		7BCE42D22AF9B2BE007F063C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42D32AF9B2BE007F063C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7BCE42DC2AF9B2F5007F063C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42EA2AF9B375007F063C /* Exercise.swift */,
+				7BCE42EC2AF9B380007F063C /* Workout.swift */,
+				7BCE42F02AF9B688007F063C /* WorkoutHistory.swift */,
+				7BCE42F82AF9EAD1007F063C /* TrendingWorkout.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7BCE42DD2AF9B2FF007F063C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42E12AF9B329007F063C /* WorkoutView.swift */,
+				7BCE42E32AF9B33C007F063C /* ExerciseRowItemView.swift */,
+				7BCE42E62AF9B354007F063C /* CreateExerciseView.swift */,
+				7BCE42EE2AF9B662007F063C /* HistoryWorkoutView.swift */,
+				7BCE42F22AF9BBB7007F063C /* HistoryView.swift */,
+				7BCE42F42AF9E18F007F063C /* SummaryView.swift */,
+				7BCE42F62AF9EAAC007F063C /* TrendingWorkoutView.swift */,
+				7BCE42FA2AFAC0C6007F063C /* InDepthView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7BCE42DE2AF9B304007F063C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7BCE42DF2AF9B317007F063C /* WorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCE42C82AF9B2BC007F063C /* liftey2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCE42D72AF9B2BE007F063C /* Build configuration list for PBXNativeTarget "liftey2.0" */;
+			buildPhases = (
+				7BCE42C52AF9B2BC007F063C /* Sources */,
+				7BCE42C62AF9B2BC007F063C /* Frameworks */,
+				7BCE42C72AF9B2BC007F063C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = liftey2.0;
+			productName = liftey2.0;
+			productReference = 7BCE42C92AF9B2BC007F063C /* liftey2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCE42C12AF9B2BC007F063C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7BCE42C82AF9B2BC007F063C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7BCE42C42AF9B2BC007F063C /* Build configuration list for PBXProject "liftey2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCE42C02AF9B2BC007F063C;
+			productRefGroup = 7BCE42CA2AF9B2BC007F063C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCE42C82AF9B2BC007F063C /* liftey2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCE42C72AF9B2BC007F063C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCE42D42AF9B2BE007F063C /* Preview Assets.xcassets in Resources */,
+				7BCE42D12AF9B2BE007F063C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCE42C52AF9B2BC007F063C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCE42E72AF9B354007F063C /* CreateExerciseView.swift in Sources */,
+				7BCE42CF2AF9B2BC007F063C /* ContentView.swift in Sources */,
+				7BCE42F72AF9EAAC007F063C /* TrendingWorkoutView.swift in Sources */,
+				7BCE42FB2AFAC0C6007F063C /* InDepthView.swift in Sources */,
+				7BCE42EF2AF9B662007F063C /* HistoryWorkoutView.swift in Sources */,
+				7BCE42E02AF9B317007F063C /* WorkoutViewModel.swift in Sources */,
+				7BCE42ED2AF9B380007F063C /* Workout.swift in Sources */,
+				7BCE42F92AF9EAD1007F063C /* TrendingWorkout.swift in Sources */,
+				7BCE42F52AF9E18F007F063C /* SummaryView.swift in Sources */,
+				7BCE42F32AF9BBB7007F063C /* HistoryView.swift in Sources */,
+				7BCE42E22AF9B329007F063C /* WorkoutView.swift in Sources */,
+				7BCE42CD2AF9B2BC007F063C /* liftey2_0App.swift in Sources */,
+				7BCE42EB2AF9B375007F063C /* Exercise.swift in Sources */,
+				7BCE42F12AF9B688007F063C /* WorkoutHistory.swift in Sources */,
+				7BCE42E42AF9B33C007F063C /* ExerciseRowItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BCE42D52AF9B2BE007F063C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BCE42D62AF9B2BE007F063C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCE42D82AF9B2BE007F063C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"liftey2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appteam.liftey2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7BCE42D92AF9B2BE007F063C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"liftey2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "appteam.liftey2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCE42C42AF9B2BC007F063C /* Build configuration list for PBXProject "liftey2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCE42D52AF9B2BE007F063C /* Debug */,
+				7BCE42D62AF9B2BE007F063C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCE42D72AF9B2BE007F063C /* Build configuration list for PBXNativeTarget "liftey2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCE42D82AF9B2BE007F063C /* Debug */,
+				7BCE42D92AF9B2BE007F063C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCE42C12AF9B2BC007F063C /* Project object */;
+}
